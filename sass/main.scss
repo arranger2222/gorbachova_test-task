@@ -1,0 +1,24 @@
+// ====================== ADDITIONAL STYLES ====================
+@import './utilities/reset';
+@import './utilities/breakpoints';
+@import './utilities/mixins/respond';
+@import './utilities/container';
+@import './utilities/variables';
+@import './utilities/hidden-element';
+@import './utilities/hidden';
+@import './utilities/closeBtn';
+@import './utilities/openBtn';
+@import './utilities/body-menu-open';
+
+// ========================= MAIN STYLES ========================
+
+@import './components/layout';
+@import './components/aside';
+@import './components/content';
+@import './components/logo';
+@import './components/navigation';
+@import './components/user';
+@import './components/table';
+@import './components/customers';
+@import './components/pagination';
+@import './components/footer';

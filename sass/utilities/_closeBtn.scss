@@ -1,0 +1,16 @@
+.close {
+  position: absolute;
+  top: 45px;
+  right: 30px;
+  @include respond-to(desktop) {
+    display: none;
+  }
+  &__icon {
+    width: 20px;
+  }
+  &__button {
+    outline: none;
+    border: none;
+    background: none;
+  }
+}

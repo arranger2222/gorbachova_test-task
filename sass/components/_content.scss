@@ -1,0 +1,25 @@
+.content {
+  position: relative;
+  padding: 40px 20px;
+  width: 100%;
+  // outline: 1px solid gray;
+  // height: 100%;
+  background-color: $background;
+  @include respond-to(desktop) {
+    padding-left: 405px;
+    padding-right: 95px;
+    height: 100%;
+  }
+  &__header {
+    position: relative;
+    display: flex;
+    margin-bottom: 51px;
+  }
+}
+
+.congtats {
+  display: block;
+  color: $black;
+  // margin-bottom: 51px;
+  font-size: 24px;
+}

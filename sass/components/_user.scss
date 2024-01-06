@@ -1,0 +1,26 @@
+.user {
+  margin-top: auto;
+  // margin-bottom: 74px;
+  &__avatar {
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+
+    align-items: end;
+  }
+  &__name {
+    color: $black;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+  }
+  &__position {
+    color: #757575;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+}
