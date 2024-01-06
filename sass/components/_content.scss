@@ -3,7 +3,7 @@
   padding: 40px 20px;
   width: 100%;
   // outline: 1px solid gray;
-  // height: 100%;
+  height: 100%;
   background-color: $background;
   @include respond-to(desktop) {
     padding-left: 405px;
