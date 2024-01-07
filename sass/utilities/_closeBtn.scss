@@ -1,5 +1,6 @@
 .close {
   position: absolute;
+
   top: 45px;
   right: 30px;
   @include respond-to(desktop) {
@@ -12,5 +13,6 @@
     outline: none;
     border: none;
     background: none;
+    cursor: pointer;
   }
 }

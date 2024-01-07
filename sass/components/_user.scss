@@ -1,6 +1,5 @@
 .user {
   margin-top: auto;
-  // margin-bottom: 74px;
   &__avatar {
     width: 42px;
     height: 42px;
@@ -15,7 +14,7 @@
     letter-spacing: 0.14px;
   }
   &__position {
-    color: #757575;
+    color: $gray3;
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;

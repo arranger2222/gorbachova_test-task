@@ -12,7 +12,6 @@
   &__item {
     display: flex;
     align-items: center;
-    // outline: 1px solid red;
     padding: 11px;
     padding-right: 8px;
     border-radius: 8px;
@@ -53,7 +52,6 @@
 
   &__icon {
     margin-right: 14px;
-    // fill: #9197b3;
 
     &--stroke {
       stroke: $gray2;

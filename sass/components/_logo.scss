@@ -21,9 +21,10 @@
   }
   &__icon {
     fill: $black;
+    transition: fill $main-transition;
     margin-right: 8px;
     &:hover {
-      fill: tomato;
+      fill: $accent;
       transition: fill $main-transition;
     }
   }
